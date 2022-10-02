@@ -1,5 +1,9 @@
 .nav {
     margin-left: 93px;
+    
+    @media screen and (max-width:767px) {
+    display: none;
+    }
 
     &__list {
         display: flex;
@@ -19,13 +23,17 @@
         
     bottom: -1.5%;
     left: 0;
-    margin-bottom: -28px;
+    margin-bottom: -33px;
         
     width: 100%;
     height: 4px;
         
     background-color: var(--accent-color);
     border-radius: 2px;
+
+    @media screen and (min-width:1200px) {
+    margin-bottom: -28px;    
+    }
     }
 
     &__link,
@@ -58,9 +66,16 @@
     /* Header contacts */
     
     .header-contacts__list {
-    display: flex;
     align-items: center;
     margin-left: auto;
+
+    @media screen and (min-width:1200px) {
+    display: flex;
+    }
+
+    @media screen and (max-width:767px) {
+    display: none;
+    }
 
     & :hover,
     & :focus {
@@ -73,10 +88,24 @@
     align-items: center;
     gap: 10px;
     color: var(--primary-tex-color);
+
+    @media screen and (max-width:1199px) {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;    
     }
-    
+    }
+
+    .header-contacts__link--mail {
+    @media screen and (max-width:1199px) {
+    margin-bottom: 10px;
+    }
+    }
+
     .header-contacts__list .header-contacts__item + .header-contacts__item {
-    margin-left: 50px;
+    @media screen and (min-width:1200px) {
+    margin-left: 30px;   
+    }
     }
     
     .smartphone, .envelope {

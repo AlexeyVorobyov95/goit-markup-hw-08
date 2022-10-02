@@ -2,6 +2,9 @@
 display: flex;
 justify-content: center;
 gap: 10px;
+padding-bottom: 24px;
+
+@media screen and (min-width: 1200px) {
 padding-bottom: 30px;
 }
 
@@ -32,7 +35,7 @@ background-color: var(--accent-color);
 .team__item:not( :last-child) {
 margin-right: 30px;
 }
-
+ }
 // socials footer
 
 .socials-footer__list {

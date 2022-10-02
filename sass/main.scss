@@ -1,5 +1,6 @@
 // utils
 @import "./utils/variables";
+@import "./utils/normalize";
 @import "./utils/visually-hidden";
 
 // base
@@ -24,3 +25,4 @@
 @import "./components/socials";
 @import "./components/filters";
 @import "./components/modal";
+@import "./components/menu";

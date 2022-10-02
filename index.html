@@ -24,7 +24,7 @@
   <header class="header">
     <div class="container">
       <a class="logo" href="./index.html">
-        <span class="logo__element">Web</span>Studio</a>
+        Web<span class="logo__element">Studio</span></a>
       <nav class="nav">
         <ul class="nav__list list">
           <li class="nav__item">
@@ -455,17 +455,17 @@
   <!-- Footer -->
 
   <footer class="footer">
-    <div class="container">
+    <div class="footer-container container">
       <div class="footer-contacts">
         <a class="footer__logo logo" href="./index.html">
-          <span class="logo__element">Web</span>Studio</a>
+          Web<span class="footer-logo__element">Studio</span></a>
         <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
-        <ul class="footer__list list">
-          <li class="footer__item">
-            <a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="footer-contacts__list list">
+          <li class="footer-contacts__item">
+            <a class="footer-contacts__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="footer__item">
-            <a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="footer-contacts__item">
+            <a class="footer-contacts__link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -508,12 +508,12 @@
         </li>
         </ul>
       </div>
-    </div>
-      <!-- Footer form -->
-      <div class="footer-form__container">
+
+    <!-- Footer form -->
+    <div class="footer-form__container">
       <form name="footer-form" autocomplete="off">
-          <h3 class="footer__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
-          <div class="footer-form__group">
+          <h3 class="footer__title footer-form__title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+          <div class="footer-sub__container">
             <label class="footer-form__label">
               <input class="footer-form__input" type="email" name="user-mail" placeholder="E-mail" required>
             </label>
@@ -523,10 +523,11 @@
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
+          </div>
       </form>
     </div>
-    
   </footer>
+
   <!-- modal window-->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -591,7 +592,7 @@
         <a href="" class="menu-nav__link link">Студія</a>
       </li>
       <li class="menu-nav__item">
-        <a href="" class="menu-nav__link link">Портфоліо</a>
+        <a href="./portfolio.html" class="menu-nav__link link">Портфоліо</a>
       </li>
       <li class="menu-nav__item">
         <a href="" class="menu-nav__link link">Контакти</a>

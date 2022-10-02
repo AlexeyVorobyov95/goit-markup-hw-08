@@ -1,11 +1,22 @@
 .logo {
 font-family: 'Raleway';
 font-weight: 700;
-font-size: 24px;
+font-size: 26px;
 line-height: calc(31 / 26);
-color: var(--secondary-text-colar);
+color: var(--accent-color);
+
+@media screen and (max-width:1199px) {
+font-weight: 700;
+font-size: 24px;
+line-height: calc(28/24);
+letter-spacing: 0.03em;
+}
 }
 
 .logo__element {
-color: var(--accent-color);
+color: var(--secondary-text-colar);
+}
+
+.footer-logo__element {
+color: var(--auxiliary-text-colar);
 }

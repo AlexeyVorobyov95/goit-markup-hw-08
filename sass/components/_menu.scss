@@ -41,6 +41,10 @@ letter-spacing: 0.02em;
 
 color: var(--secondary-text-colar);
 }
+
+.menu-nav__link.current {
+color: var(--accent-color);
+}
 }
 .menu-contacts__list {
 padding-bottom: 64px;
@@ -51,9 +55,14 @@ margin-bottom: 32px;
 .menu-contacts__link--tel  {
 color: var(--accent-color);
 font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+letter-spacing: 0.02em;
+
+@media screen and (min-width: 480px) {
 font-size: 34px;
 line-height: var(40/34);
-letter-spacing: 0.02em;
+}
 }
 
 .menu-contacts__link--mail {
@@ -73,12 +82,15 @@ margin-right: 20px;
 
 .menu-socials__link {
 font-weight: 500;
-font-size: 18px;
 line-height: 22px;
-
+font-size: 12px;    
 letter-spacing: 0.02em;
 
 color: var(--accent-color);
+
+@media screen and (min-width: 480px) {
+font-size: 18px;    
+}
 }
 .menu-socials__link.current::after {
     content:"";

@@ -5,14 +5,10 @@ padding-bottom: 60px;
 
 .footer-contacts {
 
-@media screen and (min-width: 768px) {
-padding-right: 166px;
+@media screen and (min-width: 1200px) {
+text-align: left;
+padding-right: 70px;    
 }
-
-@media screen and (min-width: 768px) {
-padding-right: 70px; 
-}
-
 .footer-contacts__logo {
 display: flex;
 justify-content: center;
@@ -86,8 +82,12 @@ text-align: center;
 @media screen and (min-width: 768px) {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;    
+justify-content: space-around;    
 }
+
+@media screen and (min-width: 1200px) { 
+justify-content: center;
+flex-wrap: nowrap;
 }
 
 .footer-contacts__item :hover,
@@ -161,7 +161,7 @@ margin-right: 12px;
 }
 
 .footer-form__input {
-width: 450px;
+width: 290px;
 height: 50px;
 margin-bottom: 20px;
 padding: 15px 16px;
@@ -172,6 +172,10 @@ border-radius: 4px;
 background-color: var(--bg-colar);
 font-size: 16px;
 color: var(--auxiliary-text-colar);
+
+@media screen and (min-width: 480px) {
+width: 450px;
+}
 
 @media screen and (min-width:1200px) {
 width: 358px;
@@ -200,4 +204,5 @@ text-align: center;
 text-align:left;    
 }
  }
-  }
+ }
+ }

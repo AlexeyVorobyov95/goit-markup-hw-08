@@ -88,9 +88,9 @@
     align-items: center;
     gap: 10px;
     color: var(--primary-tex-color);
-
-    @media screen and (max-width:1199px) {
     font-weight: 500;
+    
+    @media screen and (max-width:1199px) {
     font-size: 12px;
     line-height: 14px;    
     }
